@@ -1,0 +1,56 @@
+Processing Complex function library -v.1.0
+Written by Deepl > https://www.deepl.com/ja/translator
+
+How to add
+　(1) Open the "Complex" folder on the same level as the Notepad file.
+　　Sketchbook of Processing (you can see it from File>Settings>Sketchbook location after starting Processing)
+　　The "libraries" folder is located in the "libraries" folder in the "libraries" folder.
+　(2) If Processing is running, close it once and open it (restart is required).
+　Open Processing again and click Sketch>Import Library>Complex.
+　④If "import Complex.*;" is added in the code, the addition is successfully completed.
+
+How to use
+　There is an example of use in the example folder. For reference.
+　
+
+　Declaring a Complex type
+　　Complex c = new Complex(double real,double img);*real,img are numbers.
+    c has the value (real) + (img)i.
+
+ Class Mesut
+　.dis(); :Returns the original complex number with a + bi string type. *a,b are real numbers
+　.Conj(); :Returns the conjugate complex number of the original complex number with complex type.
+　.Cmult(Complex c); :returns the value obtained by multiplying the original complex number by the argument complex number.
+  .Csq(); :returns the square of the original complex number in complex type.
+　.CRmult(double a); :returns the value obtained by multiplying the original complex number by real number (a times) with complex type.
+  .Cabs(); :Returns the absolute value of the original complex number in real type.
+  .Carg(); :returns the original complex number's declination in real number type.
+　.Cdiv(Complex c); :returns the value obtained by dividing the original complex number by the complex number as an argument, with type complex.
+  .Cadd(Complex c); :returns the complex type of the original complex number plus the complex number of the argument.
+  .Csub(Complex c); :returns a complex number type that is the original complex number minus the complex number as an argument. 
+　.Cexp(); :returns the value of f(z) = e^(z) with the original complex number as variable z in complex type.
+  .Ccos(); :returns the value of f(z) = cos(z) with the original complex number as variable z of complex type.
+  .Csin(); :returns the value of f(z) = sin(z) with the original complex number as variable z of complex type.
+  .Ctan(); :returns the value of f(z) = tan(z) with the original complex number as variable z.  
+　.CLog(); :Returns the value of f(z) = Log(z) with the original complex number as variable z in complex type. . CLog(); :Returns the value of f(z) = Log(z) with the original complex number as variable z in complex type.
+　.CPow(Complex c); :Returns the value of f(z,c) = (z)^(c) with the original complex number as variable z in complex type.  
+  .CSqrt(); :Returns the value of f(z) = Pow(z,0.5) with the original complex number in variable z in complex type.  
+  .Cacos(); :returns the value of f(z) = arccos(z) with the original complex number as variable z in complex type.  
+  .Casin(); :returns the value of f(z) = arcsin(z) with the original complex number in variable z of complex type.  
+  .Catan(); :returns the value of f(z) = arctan(z) with the original complex number in variable z of complex type.  
+  .Ccosh(); :Returns the value of f(z) = cosh(z) with the original complex number in variable z of complex type.  
+  .Csinh(); :Returns the value of f(z) = sinh(z) with the original complex number in variable z of complex type.  
+  .Ctanh(); :returns the value of f(z) = tanh(z) with the original complex number in variable z of complex type.  
+  .Cacosh(); :Returns the value of f(z) = acosh(z) with the original complex number in variable z of complex type.  
+  .Casinh(); :returns the value of f(z) = asinh(z) with the original complex number in variable z of complex type.  
+  .Catanh(); :returns the value of f(z) = atanh(z) with the original complex number in variable z of complex type. 
+
+Others.
+　If you find any errors, please DM me on Twitter.
+　Twitter > https://twitter.com/ootoro29 
+　　
+    
+author:ootoro29
+2022-04-16 -v.1.0
+
+Translated with www.DeepL.com/Translator (free version)

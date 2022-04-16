@@ -1,0 +1,53 @@
+Processing Complex function library -v.1.0
+
+【追加方法】
+　①このメモ帳ファイルと同じ階層にある、「Complex」フォルダを
+　　Processing本体のスケッチブック(Processingを起動してファイル>設定>スケッチブックの場所から確認可能)
+　　内にある「libraries」フォルダの中に入れる。
+　②Processingが起動されている場合、一度閉じて開く(再起動が必要)
+　③もう一度Processingを開き、スケッチ>ライブラリをインポート>Complexの順でクリック。
+　④コード内に "import Complex.*;"が追加された場合、正常に追加が完了。
+
+【使用方法】
+　exampleフォルダに使用例があります。参考に。
+　
+
+　Complex型を宣言
+　　Complex c = new Complex(double real,double img);※real,img には数値を。
+    cは (real) + (img)iの値を持つ。
+
+ クラスメゾット
+　.dis(); :元の複素数を a + bi の文字列型で返す。※a,bは実数
+　.Conj(); :元の複素数の共役複素数を複素数型で返す。
+　.Cmult(Complex c); :元の複素数と引数としての複素数同士を掛けた値を複素数型で返す。
+  .Csq(); :元の複素数の二乗を複素数型で返す。
+　.CRmult(double a); :元の複素数を実数倍(a倍)した値を複素数型で返す。
+  .Cabs(); :元の複素数の絶対値を実数型で返す。
+  .Carg(); :元の複素数の偏角を実数型で返す。
+　.Cdiv(Complex c); :元の複素数から引数としての複素数で割った値を複素数型で返す。
+  .Cadd(Complex c); :元の複素数と引数としての複素数同士を足し合わせる複素数型を返す。
+  .Csub(Complex c); :元の複素数から引数としての複素数を引いた複素数型を返す。 
+　.Cexp(); :元の複素数を変数zとするf(z) = e^(z) の値を複素数型で返す。
+  .Ccos(); :元の複素数を変数zとするf(z) = cos(z) の値を複素数型で返す。
+  .Csin(); :元の複素数を変数zとするf(z) = sin(z) の値を複素数型で返す。
+  .Ctan(); :元の複素数を変数zとするf(z) = tan(z) の値を複素数型で返す。  
+　.CLog(); :元の複素数を変数zとするf(z) = Log(z) の値を複素数型で返す。※-π<=θ<=π
+　.CPow(Complex c); :元の複素数を変数zするf(z,c) = (z)^(c) の値を複素数型で返す。  
+  .CSqrt(); :元の複素数を変数zするf(z) = Pow(z,0.5) の値を複素数型で返す。  
+  .Cacos(); :元の複素数を変数zするf(z) = arccos(z) の値を複素数型で返す。  
+  .Casin(); :元の複素数を変数zするf(z) = arcsin(z) の値を複素数型で返す。  
+  .Catan(); :元の複素数を変数zするf(z) = arctan(z) の値を複素数型で返す。  
+  .Ccosh(); :元の複素数を変数zするf(z) = cosh(z) の値を複素数型で返す。  
+  .Csinh(); :元の複素数を変数zするf(z) = sinh(z) の値を複素数型で返す。  
+  .Ctanh(); :元の複素数を変数zするf(z) = tanh(z) の値を複素数型で返す。  
+  .Cacosh(); :元の複素数を変数zするf(z) = acosh(z) の値を複素数型で返す。  
+  .Casinh(); :元の複素数を変数zするf(z) = asinh(z) の値を複素数型で返す。  
+  .Catanh(); :元の複素数を変数zするf(z) = atanh(z) の値を複素数型で返す。 
+
+【その他】
+　何か間違いがありましたらTwitterのDMまで。
+　Twitter > https://twitter.com/ootoro29 
+　　
+    
+author:ootoro29
+2022-04-16　-v.1.0
