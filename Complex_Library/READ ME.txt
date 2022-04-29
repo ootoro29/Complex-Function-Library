@@ -22,8 +22,8 @@ Processing Complex function library -v.1.0
 　.Cmult(Complex c); :元の複素数と引数としての複素数同士を掛けた値を複素数型で返す。
   .Csq(); :元の複素数の二乗を複素数型で返す。
 　.CRmult(double a); :元の複素数を実数倍(a倍)した値を複素数型で返す。
-  .Cabs(); :元の複素数の絶対値を実数型で返す。
-  .Carg(); :元の複素数の偏角を実数型で返す。
+  .Cabs(); :元の複素数の絶対値を実数型で返す。(Double型)
+  .Carg(); :元の複素数の偏角を実数型で返す。(Double型)
 　.Cdiv(Complex c); :元の複素数から引数としての複素数で割った値を複素数型で返す。
   .Cadd(Complex c); :元の複素数と引数としての複素数同士を足し合わせる複素数型を返す。
   .Csub(Complex c); :元の複素数から引数としての複素数を引いた複素数型を返す。 
@@ -43,6 +43,8 @@ Processing Complex function library -v.1.0
   .Cacosh(); :元の複素数を変数zするf(z) = acosh(z) の値を複素数型で返す。  
   .Casinh(); :元の複素数を変数zするf(z) = asinh(z) の値を複素数型で返す。  
   .Catanh(); :元の複素数を変数zするf(z) = atanh(z) の値を複素数型で返す。 
+  .real :複素数クラスの実数(実部)を返す。(Double型)
+  .img :複素数クラスの虚数(虚部)を返す。(Double型)
 
 【その他】
 　何か間違いがありましたらTwitterのDMまで。
