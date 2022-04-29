@@ -44,6 +44,8 @@ How to use
   .Cacosh(); :Returns the value of f(z) = acosh(z) with the original complex number in variable z of complex type.  
   .Casinh(); :returns the value of f(z) = asinh(z) with the original complex number in variable z of complex type.  
   .Catanh(); :returns the value of f(z) = atanh(z) with the original complex number in variable z of complex type. 
+  .real :Returns a real number (real part) of complex number class. (Double type)
+  .img :Returns the imaginary part of the complex number class. (Double type)
 
 Others.
 　If you find any errors, please DM me on Twitter.
